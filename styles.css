@@ -46,16 +46,46 @@ img {
     height: 400px;
 }
 
+.clothes .clothes-discount {
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    color: white;
+    padding: 3px 6px;
+}
+
 .discount-clothes {
     color: red;
     font-weight: bold;
 }
 
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 110px;
+    background-color: white;
+    margin-left: 270px;
+} 
+
+.heart2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 630px;
+    background-color: white;
+    margin-left: 270px;
+} 
+
 footer {
-    display: flex;
     background-color: rgb(0, 0, 0);
     padding: 10px;
-    margin-top: 20px;
-    border: 1px dashed red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
+.social {
+    display: flex;
+    width: 100px;  
+}
