@@ -19,21 +19,31 @@ nav {
     font-weight: bold;
 }
 
+.row {
+    display: flex;
+}
+
 .logo-boolean {
     width: 130px;
     height: 30px;
 }
 
 .user {
-    width: 20px;
+    display: flex;
+    width: 50px;
 }
 
 .container-shop {
-    width: 860px;
+    display: flex;
+    width: 900px;
     background-color: #76c2be;
     border: 1px dashed black;
     margin: 0 auto;
-    padding-bottom: 300px;
+}
+
+img {
+    width: 300px;
+    height: 400px;
 }
 
 footer {
