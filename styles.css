@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(187, 110, 23);
+    padding: 10px;
+    color: white;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.logo-boolean {
+    width: 130px;
+    height: 30px;
+}
+
+.user {
+    width: 20px;
+}
+
+.container-shop {
+    width: 860px;
+    background-color: #76c2be;
+    border: 1px dashed black;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px dashed red;
+}
+
