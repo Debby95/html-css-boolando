@@ -21,6 +21,8 @@ nav {
 
 .row {
     display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
 }
 
 .logo-boolean {
@@ -36,14 +38,17 @@ nav {
 .container-shop {
     display: flex;
     width: 900px;
-    background-color: #76c2be;
-    border: 1px dashed black;
     margin: 0 auto;
 }
 
 img {
     width: 300px;
     height: 400px;
+}
+
+.discount-clothes {
+    color: red;
+    font-weight: bold;
 }
 
 footer {
